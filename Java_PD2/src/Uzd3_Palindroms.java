@@ -32,8 +32,7 @@ public class Uzd3_Palindroms {
 		
 		for (int i=(wordArr.length-1); i>=0; i--) {
 			reverseArr[reverseArrIndex]=wordArr[i];
-			reverseArrIndex++;
-			
+			reverseArrIndex++;	
 		}
 		boolean isPalindrome=true;
 		for (int i=0; i<wordArr.length; i++) {
@@ -47,7 +46,7 @@ public class Uzd3_Palindroms {
 			System.out.println("Ir palindroms");
 		}*/
 		
-		//String reverseWord=new String(reverseArr) ðâdi no string uztaisâm masîvu
+		//String reverseWord=new String(reverseArr) //ðâdi no string uztaisâm masîvu
 		
 		}
 	
